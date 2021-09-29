@@ -1,5 +1,6 @@
 package javaSocket;
 
+import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 
@@ -7,7 +8,7 @@ public class UDPEchoSever {
     public final static int severPort=7;
     public static void main(String[] args) {
         try {
-            DatagramSocket ds =new DatagramSocket();
+            DatagramSocket ds =new DatagramSocket(severPort);
             System.out.println("Sever duoc tao");
             byte[] buffer =new byte[6000];
                 while(true)
@@ -19,9 +20,9 @@ public class UDPEchoSever {
                     ds.send(outsending);
                 }
             }
-             catch (Exception e) 
+             catch (IOException ie) 
             {
-                System.out.println("Loi");
+                System.out.println(ie);
             }
             
     }

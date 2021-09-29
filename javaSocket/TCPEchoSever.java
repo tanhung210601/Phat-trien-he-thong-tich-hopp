@@ -13,7 +13,7 @@ public class TCPEchoSever {
             System.out.println("Sever đã được tạo");
             while(true)
             {
-                try {
+               
                     Socket s=ss.accept();
                     OutputStream os=s.getOutputStream();
                     InputStream is=s.getInputStream();
@@ -25,9 +25,9 @@ public class TCPEchoSever {
                         os.write(ch);
                     }
                     s.close();
-                } catch (Exception e) {
-                    System.out.println("Loi");
-                }
+                
+                   
+                
             }
         } catch (Exception e) {
            System.out.println("Sever creation error");

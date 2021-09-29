@@ -1,6 +1,7 @@
 package javaSocket;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
@@ -11,7 +12,7 @@ public class UDPEchoClient {
     public static void main(String[] args) {
         try {
             DatagramSocket ds=new DatagramSocket();
-            InetAddress sever =InetAddress.getByName("localHoast");
+            InetAddress sever =InetAddress.getByName("localhost");
             while(true)
             {
                 InputStreamReader isr=new InputStreamReader(System.in);
@@ -23,13 +24,13 @@ public class UDPEchoClient {
                 byte[] buffer =new byte[6000];
                 DatagramPacket incoming=new DatagramPacket(buffer, buffer.length);
                 ds.receive(incoming);
-                System.out.println(incoming);
                 System.out.println(new String(incoming.getData(),0,incoming.getLength()));
 
 
             }
-        } catch (Exception e) {
-           System.out.println("Looix");
+        } catch (IOException ie) {
+           System.out.println(ie);
+
         }
     }
     
