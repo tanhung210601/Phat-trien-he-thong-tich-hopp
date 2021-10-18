@@ -40,7 +40,13 @@ public class FileWrite extends Thread{
     public static void main(String[] args) throws FileNotFoundException {
         FileOutputStream fos=new FileOutputStream("text.txt");
         FileWrite t1=new FileWrite(fos);
+        FileOutputStream fos1=new FileOutputStream("text1.txt");
+        FileWrite t2=new FileWrite(fos1);
+        FileOutputStream fos2=new FileOutputStream("text2.txt");
+        FileWrite t3=new FileWrite(fos2);
         t1.start();
+        t2.start();
+        t3.start();
 
         
     }
