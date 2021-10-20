@@ -30,11 +30,15 @@ public class Client {
                 System.out.println("Nhap ten file:");
                 String nameFile=nhap.nextLine();
                 os.write(nameFile.getBytes());
-                
-                byte[] b =new byte[1000];
+                int num=is.available();
+                byte[] b =new byte[1024];
                 int ch=is.read(b);
                 String kq=new String(b, 0, ch);
                 System.out.println(kq);
+               
+                
+                
+                
                 
 
                 
