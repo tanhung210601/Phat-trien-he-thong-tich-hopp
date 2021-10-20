@@ -55,7 +55,7 @@ public class Sever {
                                     case 10: 
                                         kq="Muoi";
                                         break;
-                                    default: kq="Khong phai so nguyen";
+                                    default: kq="Khong phai so nguyennn";
                                 }
                                 os.write(kq.getBytes());
                                 

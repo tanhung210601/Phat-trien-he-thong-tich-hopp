@@ -2,6 +2,7 @@ package Bai1Thread;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
 import java.io.FileInputStream;
@@ -27,6 +28,7 @@ public class FileRead  extends Thread{
            while(true)
            {
                String line=br.readLine();
+               
                if(line==null) break;
                System.out.println(line);
                sleep(1000);
