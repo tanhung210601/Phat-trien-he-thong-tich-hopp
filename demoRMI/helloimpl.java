@@ -1,20 +1,17 @@
-package RMI;
-
+package demoRMI;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
-public class HelloImpl extends UnicastRemoteObject implements HelloInterface{
+public class helloimpl extends UnicastRemoteObject  implements hellointerface{
 
-    protected HelloImpl() throws RemoteException {
+    protected helloimpl() throws RemoteException {
         super();
         //TODO Auto-generated constructor stub
     }
 
     @Override
     public String printHello() throws RemoteException {
-        // TODO Auto-generated method stub
-        return null;
+       return String.format("Hello Tan Hung");
     }
-    
-    
+
 }

@@ -9,14 +9,11 @@ import java.io.OutputStream;
 public class test {
     public static void main(String[] args) throws IOException {
         try {
-            FileInputStream fis=new FileInputStream("t.txt");
+            FileInputStream fis=new FileInputStream("t4.txt");
             byte[] b= new byte[1000];
             int c=fis.read(b);
             String file=new String(b,0,c);
             System.out.println(file);
-
-            
-            
 
            
         } catch (FileNotFoundException e) {

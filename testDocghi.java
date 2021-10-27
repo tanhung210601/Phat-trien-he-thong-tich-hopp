@@ -60,7 +60,7 @@ class testDocghi {
         Thread t1= new Thread(){
             public void run() {
                 try {
-                    d.doc("t3.txt","t6.txt");
+                    d.doc("t.txt","t6.txt");
                    
                 } catch (IOException | InterruptedException e) {
                     // TODO Auto-generated catch block
