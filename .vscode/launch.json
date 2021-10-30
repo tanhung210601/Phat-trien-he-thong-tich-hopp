@@ -1,0 +1,259 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "demoRMI.test",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch client",
+            "request": "launch",
+            "mainClass": "BT.client",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch server",
+            "request": "launch",
+            "mainClass": "BT.server",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch DocGhiDongBoFile",
+            "request": "launch",
+            "mainClass": "Bai1Thread.DocGhiDongBoFile",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileRead",
+            "request": "launch",
+            "mainClass": "Bai1Thread.FileRead",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileTWrite",
+            "request": "launch",
+            "mainClass": "Bai1Thread.FileTWrite",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileWrite",
+            "request": "launch",
+            "mainClass": "Bai1Thread.FileWrite",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch ghi",
+            "request": "launch",
+            "mainClass": "Bai1Thread.ghi",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch docfile",
+            "request": "launch",
+            "mainClass": "DocFile.docfile",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileInputStreamExample1",
+            "request": "launch",
+            "mainClass": "FileInputStreamExample1",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client",
+            "request": "launch",
+            "mainClass": "THI.Client",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sever",
+            "request": "launch",
+            "mainClass": "THI.Sever",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClientTCP",
+            "request": "launch",
+            "mainClass": "bai1.ClientTCP",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sever(1)",
+            "request": "launch",
+            "mainClass": "bai1.Sever",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch SeverTCp",
+            "request": "launch",
+            "mainClass": "bai1.SeverTCp",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client(1)",
+            "request": "launch",
+            "mainClass": "bai10.Client",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch sever",
+            "request": "launch",
+            "mainClass": "bai10.sever",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client(2)",
+            "request": "launch",
+            "mainClass": "bai4.Client",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch SeverTCP",
+            "request": "launch",
+            "mainClass": "bai4.SeverTCP",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client(3)",
+            "request": "launch",
+            "mainClass": "bai6.Client",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sever(2)",
+            "request": "launch",
+            "mainClass": "bai6.Sever",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client(4)",
+            "request": "launch",
+            "mainClass": "bai7.Client",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch sever(1)",
+            "request": "launch",
+            "mainClass": "bai7.sever",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client(5)",
+            "request": "launch",
+            "mainClass": "bai9.Client",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch sever(2)",
+            "request": "launch",
+            "mainClass": "bai9.sever",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch client(1)",
+            "request": "launch",
+            "mainClass": "demoRMI.client",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch server(1)",
+            "request": "launch",
+            "mainClass": "demoRMI.server",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch client(2)",
+            "request": "launch",
+            "mainClass": "socketBai4.client",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch sever(3)",
+            "request": "launch",
+            "mainClass": "socketBai4.sever",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sever(3)",
+            "request": "launch",
+            "mainClass": "test.Sever",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch client(3)",
+            "request": "launch",
+            "mainClass": "test.client",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch testDocghi",
+            "request": "launch",
+            "mainClass": "testDocghi",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client(6)",
+            "request": "launch",
+            "mainClass": "tinhtong.Client",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sever(4)",
+            "request": "launch",
+            "mainClass": "tinhtong.Sever",
+            "projectName": "Phat-trien-he-thong-tich-hopp_431bd808"
+        }
+    ]
+}
