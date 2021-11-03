@@ -21,5 +21,19 @@ public class CalcImpl extends UnicastRemoteObject implements CalcInter{
         // TODO Auto-generated method stub
         return a-b;
     }
+
+
+    @Override
+    public int tich(int a, int b) throws RemoteException {
+        // TODO Auto-generated method stub
+        return a*b;
+    }
+
+
+    @Override
+    public int chia(int a, int b) throws RemoteException {
+        // TODO Auto-generated method stub
+        return a/b;
+    }
     
 }
