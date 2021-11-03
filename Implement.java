@@ -9,7 +9,7 @@ public class Implement extends UnicastRemoteObject implements Interface{
     }
     @Override
     public int DemTu(String s) throws RemoteException {
-         if (s == null) {
+        if (s == null) {
             return -1;
         }
         int count = 0;

@@ -6,11 +6,11 @@ public class Client {
     public static void main(String[] args) {
         Scanner nhap=new Scanner(System.in);
         while (true) {
-            System.out.println("1. Dem tu trong chuoi\n2. Dao chuoi\nexit");
+            System.out.println("1. Dem tu trong chuoi\n2. Dao chuoi\nExit");
             String luaChon=nhap.nextLine();
             // nhap.nextLine();
             try {
-                Registry reg=LocateRegistry.getRegistry(5555);
+                Registry reg=LocateRegistry.getRegistry(11111);
                 Interface citf=(Interface) reg.lookup("MyService1");
                 switch (luaChon) {
                     case "1":
@@ -23,8 +23,6 @@ public class Client {
                         String s2=nhap.nextLine();
                         System.out.println("Chuoi dao nguoc: "+citf.DaoChuoi(s2));
                         break;
-                    case "exit":
-                        System.exit(0);
                     default:
                         System.out.println("Lua chon khong hop le");
                         break;
