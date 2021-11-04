@@ -17,7 +17,7 @@ public class Server {
         System.out.println("Server started");
         
       } catch (Exception e) {
-          System.out.println("Lỗi");
+          System.out.println("Lỗi!!!");
       }
        
   }

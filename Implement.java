@@ -1,4 +1,7 @@
+import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
 import java.util.StringTokenizer;
 
@@ -23,14 +26,6 @@ public class Implement extends UnicastRemoteObject implements Interface{
         StringBuffer str=new StringBuffer(s);
         String kq=str.reverse().toString();
         return kq;
-    }
-    @Override
-    public String Exit(String s) throws RemoteException {
-        if(s=="exit")
-        {
-            UnicastRemoteObject.unexportObject(obj, force)
-        }
-        return null;
     }
     
     
