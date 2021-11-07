@@ -10,8 +10,13 @@ public class Client {
     public static void main(String[] args) {
        
             Scanner nhap=new Scanner(System.in);
+            System.out.println("Nhap port: ");
+            int port=nhap.nextInt();
+            nhap.nextLine();
+            System.out.println("Nhap IP: ");
+            String IP=nhap.nextLine();
             try {
-            Registry reg=LocateRegistry.getRegistry(5555);
+            Registry reg=LocateRegistry.getRegistry(port);
             Interface citf=(Interface) reg.lookup("MyService1");
             
             
