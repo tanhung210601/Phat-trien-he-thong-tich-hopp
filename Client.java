@@ -35,8 +35,8 @@ public class Client {
                             System.out.println("Chuoi dao nguoc: "+citf.DaoChuoi(s2));
                             break;
                         case "exit":
-                            // System.exit(0);
-                            UnicastRemoteObject.unexportObject(citf, true);
+                            System.exit(0);
+                            
                             break;
                         default:
                             System.out.println("Lua chon khong hop le");
