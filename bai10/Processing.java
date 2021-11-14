@@ -40,8 +40,9 @@ public class Processing extends Thread{
                         byte[] b= new byte[num];
                         int ch=is.read(b);
                         String s= new String(b,0,ch);
-                        System.out.println(s);
-                        dos.writeBytes(s);
+                        StringBuffer strBuff=new StringBuffer(s);
+                        // System.out.println(s);
+                        dos.writeBytes(strBuff.reverse().toString());
                         os.write(0);
                     }
  

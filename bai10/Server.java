@@ -3,7 +3,7 @@ package bai10;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class sever {
+public class Server {
     public static void main(String[] args) {
         try {
             ServerSocket ss=new ServerSocket(1111);
